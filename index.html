@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Frontend Mentor | Results summary component</title>
+
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+				color: black;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container wide-display-flex">
+			<div class="result-container">
+				<div class="result-inner-container">
+					<h3 class="result-heading">Your Result</h3>
+					<div class="result-score">
+						<h1>76</h1>
+						<p>of 100</p>
+					</div>
+					<h2>Great</h2>
+					<p class="result-summation">
+						You scored higher than 65% of the people who have taken
+						these tests.
+					</p>
+				</div>
+			</div>
+			<div class="summary-container">
+				<div class="summary-inner-container">
+					<h3 class="summary-heading">Summary</h3>
+					<div
+						class="reaction-container flex-container summary-boxes"
+					>
+						<div class="sibling-wrapper">
+							<img
+								class="reaction-img"
+								src="./images/icon-reaction.svg"
+							/>
+							<div class="reaction">Reaction</div>
+						</div>
+						<div class="summary-score">
+							<span class="colored-number">80</span> / 100
+						</div>
+					</div>
+					<div class="memory-container flex-container summary-boxes">
+						<div class="sibling-wrapper">
+							<img src="./images/icon-memory.svg" />
+							<div class="memory">Memory</div>
+						</div>
+						<div class="summary-score">
+							<span class="colored-number">92</span> / 100
+						</div>
+					</div>
+					<div class="verbal-container flex-container summary-boxes">
+						<div class="sibling-wrapper">
+							<img src="./images/icon-verbal.svg" />
+							<div class="verbal">Verbal</div>
+						</div>
+						<div class="summary-score">
+							<span class="colored-number">61</span> / 100
+						</div>
+					</div>
+					<div class="visual-container flex-container summary-boxes">
+						<div class="sibling-wrapper">
+							<img src="./images/icon-visual.svg" />
+							<div class="visual">Visual</div>
+						</div>
+						<div class="summary-score">
+							<span class="colored-number">72</span> / 100
+						</div>
+					</div>
+					<div class="continue-btn-wrapper">
+						<a class="continue-btn">Continue</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Seyienei Meyase</a>.
+		</div>
+	</body>
+</html>
